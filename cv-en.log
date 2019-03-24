@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.10)  24 MAR 2019 12:40
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.10)  24 MAR 2019 21:52
 entering extended mode
 **./cv-en.tex
 (cv-en.tex
@@ -597,12 +597,7 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TP@prevdepth=\dimen181
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/needspace\needspace.sty"
 Package: needspace 2010/09/12 v1.3d reserve vertical space
-)
-
-Package geometry Warning: `bmargin' results in NEGATIVE (-8.40578pt).
-    `height' or `tmargin' should be shortened in length.
-
-(cv-en.aux)
+) (cv-en.aux)
 \openout1 = `cv-en.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -621,7 +616,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 44.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 44.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/tipa\t3cmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex/latex/tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 44.
@@ -694,15 +689,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(65.04256pt, 456.0pt, 76.46532pt)
-* v-part:(T,H,B)=(115.63243pt, 737.82019pt, -8.40578pt)
+* h-part:(L,W,R)=(70.75394pt, 456.0pt, 70.75394pt)
+* v-part:(T,H,B)=(86.72377pt, 737.82019pt, 20.50288pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=456.0pt
 * \textheight=737.82019pt
-* \oddsidemargin=-7.22743pt
-* \evensidemargin=-7.22743pt
-* \topmargin=6.36244pt
+* \oddsidemargin=-1.51605pt
+* \evensidemargin=-1.51605pt
+* \topmargin=-22.54622pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -776,12 +771,12 @@ Overfull \hbox (24.98108pt too wide) in paragraph at lines 158--191
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
  (cv-en.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 233.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 232.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
 Package rerunfilecheck Info: File `cv-en.out' has not changed.
 (rerunfilecheck)             Checksum: 54C18B6D646FFE50386690FC7D0ADED7.
 
@@ -792,7 +787,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  25791 strings out of 427748
  458359 string characters out of 3150980
- 568519 words of memory out of 3000000
+ 568511 words of memory out of 3000000
  29665 multiletter control sequences out of 15000+200000
  551595 words of font info for 50 fonts, out of 3000000 for 9000
  1329 hyphenation exceptions out of 8191
