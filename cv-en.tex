@@ -2,7 +2,7 @@
 %						 								 PREAMBLE	      				 								  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % -*- coding: utf-8 -*-
-\nonstopmode
+%\nonstopmode
 \documentclass[a4paper,12pt]{article}
 \usepackage[polish]{babel}
 \usepackage{polski}
@@ -28,24 +28,29 @@
 \setlength{\TPHorizModule}{10pt} %controls horizontal movements
 \setlength{\TPVertModule}{10pt}  %controls vertical movements
 \usepackage{needspace}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={6.5in,8.75in},
+ top=1.6in, left=0.9in
+ }
 
+%\definecolor{light-gray}{gray}{0.95}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %													BEGIN DOCUMENT						 							 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-\mbox{}
+%\mbox{}
 \par{\centering {\Huge \textsc{CV}}\bigskip\par}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %											PERSONAL INFORMATION				 									  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{samepage}
-\section{Personal information}
-\begin{textblock}{1}(38,0)
-\includegraphics[scale=0.3]{me2.jpg}
-\end{textblock}
+
+	% \section{\textcolor[rgb]{0,1,0}{Personal information {\color{red} highlighted}}
+\section{\textcolor{Blue}{Personal information}}
 
 \begin{tabular}{rl}
 	\textsc{First name and surname:}&  \textbf{Robert Ospara} \\
@@ -55,15 +60,17 @@
 	\textsc{Email:}& \href{mailto:robertospara@gmail.com}{robertospara@gmail.com}
 \end{tabular}
 
-\vspace{2em}
+\vspace{3em}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %		            TECHNICAL SKILLS       			     
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Core technical skills and competences}
+\section{\textcolor{Blue}{Core technical skills and competences}}
 \begin{tabular}{r|p{9.5cm}}
 	\textsc{Web technologies}
-	&\footnotesize{JavaScript, CSS, HTML, ASP.NET, ASP.NET MVC, AngularJS, Bootstrap, TypeScript, IIS, Fiddler, SoapUI} \\
+	&\footnotesize{JavaScript, CSS, LESS, SASS, HTML, MS WebAPI, ASP.NET, ASP.NET MVC, AngularJS, Bootstrap, TypeScript, IIS} \\
+	\textsc{Web development tools}
+	&\footnotesize{Chrome devtools, Fiddler, SoapUI, Postman} \\
 	\textsc{Programming Languages}
 	&\footnotesize{C\#, C++, C, T-SQL, Perl} \\
 	\textsc{Frameworks}
@@ -78,20 +85,34 @@
 	&\footnotesize{Visual Studio, SQL Server Management Studio} \\
 \end{tabular}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%					FOREIGN LANGUAGES					 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Foreign languages}
-\begin{tabular}{r|p{11cm}}
-	\textsc{English:}&very good\\
-\end{tabular}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %				WORK EXPERIENCE		  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Work experience}
+\vspace{3em}
+\section{\textcolor{Blue}{Work experience}}
 \begin{tabular}{r|p{12cm}}
-\textsc{Aug.2013-now}
+	\multicolumn{2}{c}{}\\
+	\textsc{Oct.2018-now}
+	&\emph{Full-Stack Developer} \\
+	&\textsc{\textbf{Adare International Ltd.}} (marketing) \\
+	&\footnotesize{
+		Responsibilities: development and maintenance of enterprise software solutions on the stack of Microsoft technologies. \newline
+		Current project:
+		\begin{itemize}
+			\item Ichor - system for colaboration between suppliers, agents and customers.
+		\end{itemize}
+		Used technologies: \newline
+		TypeScript, JS ECMAScript 6, HTML 4.01, HTML5 , Less, CSS3, C\# 6, ASP.NET 4.7.1, Microsoft WebApi 2, AngularJS 1.X, T-SQL,
+		EntityFramework 6, KnockoutJS v3.5, git \newline
+		Used tools: \newline
+		Windows Server 2012R2/2016, MSSQL 2012/2014/2016, Visual Studio 2017, VSTS 2017, TeamCity, Octopus.
+	}\\
+	
+\end{tabular}
+
+\section{\textcolor{Blue}{Work experience}}
+\begin{tabular}{r|p{12cm}}
+\textsc{Aug.2013-Sep.2018}
 	&\emph{Software Engineer} \\
 	&\textsc{\textbf{Infoprojekt SP. Z O.O.}} (IT) \\
 	&\footnotesize{
@@ -99,8 +120,8 @@
 		Current and past activities:
 		\begin{itemize}
 			\item HelplineDE - development of system for business processes modelling and running.
-		        \item Tim -  development of medical factoring system.
-		        \item Chronos - development of timetable software linked to the Microsoft TFS.
+			\item Tim -  development of medical factoring system.
+		    \item Chronos - development of timetable software linked to the Microsoft TFS.
 			\item Helpline - development of tasks scheduling system.
 		\end{itemize}
 		Used technologies: \newline
@@ -111,11 +132,6 @@
 	}\\
 	\multicolumn{2}{c}{}\\
 
-\end{tabular}
-%\end{samepage}
-
-\section{Work experience}
-\begin{tabular}{r|p{11cm}}
 	\textsc{Jun.2012-Jul.2013}
 	&\emph{Programmer/Consultant} \\
 	&\textsc{\textbf{DC S.A.}} (IT) \\
@@ -137,7 +153,9 @@
 		SVN, Redmine, powershell, SharePoint Designer, SharePoint Manager, InfoPath.
 	}\\
 	\multicolumn{2}{c}{}\\
-
+\end{tabular}
+\section{\textcolor{Blue}{Work experience}}
+\begin{tabular}{r|p{12cm}}
 	\textsc{Jul.2011-Apr.2012}
 	&\emph{Software Development Engineer}\\
 	&\textsc{\textbf{Samsung Electronics Polska sp. z o.o.}} (DTV)\\
@@ -156,8 +174,6 @@
 	}\\
 	\multicolumn{2}{c}{}\\
 
-
-
 	\textsc{Jun.2010-Jun.2011}
 	&\emph{Software Development Engineer}\\
 	&\textsc{\textbf{Thomson Reuters (Markets) Europe S.A. Polska}} (finances)\\
@@ -173,25 +189,10 @@
 	\multicolumn{2}{c}{}\\
 \end{tabular}
 
-\section{Work experience}
-\begin{tabular}{r|p{13cm}}
-     \textsc{2004-2008}
-	&\emph{Software Developer}\\
-	&\textsc{\textbf{home (non-commercial)}}\\
-	&\footnotesize{Responsibilities: Writing desktop applications, websites, network and client-server solutions for other students.}\\
-	\multicolumn{2}{c}{}\\
-
-	\textsc{2002-2006}
-	&\emph{Teaching}\\
-	&\textsc{\textbf{Mathematics, Physics and Computer Science}}\\
-	&\footnotesize{Responsibilities: Helping pupils in maths, physics and computer science.}\\
-	\multicolumn{2}{c}{}\\
-\end{tabular}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %						EDUCATION						 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Education}
+\section{\textcolor{Blue}{Education}}
 \begin{tabular}{r|p{11cm}}
 	\textsc{Oct.2006-Nov.2009}
 		&  \textbf{Master of Computer Science}\\
@@ -206,58 +207,18 @@
 		& profile of the class - mathematics and physics\\
 \end{tabular}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%					TRAININGS	    				 	 %
+%					FOREIGN LANGUAGES					 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Trainings}
+\section{\textcolor{Blue}{Foreign languages}}
 \begin{tabular}{r|p{11cm}}
-	\textsc{Jul.2014}
-	&\emph{Programming in HTML5 with JavaScript and CSS3} \\
-	\multicolumn{2}{c}{} \\
-
-	\textsc{Sep.2011}
-	&\emph{Microsoft SharePoint 2010 Application Development} \\
-	\multicolumn{2}{c}{} \\
-
-	\textsc{Jun.2009-Aug.2009}
-	&\emph{Java, C++ Developer} \\
-	&\textsc{Tieto Polska sp. z o.o.} (telecommunications) \\
-	&\footnotesize{Responsibilities: adding new functionality to network manager. Creating
-				   client-server application. Used technologies: C++, Java.} \\
-	\multicolumn{2}{c}{} \\
-
-	\textsc{Jul.2006}
-	&\emph{Network Administrator} \\
-	&\textsc{Wojewodzki Szpital Zespolony im. Ludwika Rydygiera w Toruniu} (public hospital) \\
-	&\footnotesize{Responsibilities: solving problems with the hospital network, computers and systems.} \\
-	\multicolumn{2}{c}{} \\
+	\textsc{English:}&B2\\
 \end{tabular}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%					SOCIAL WORKS						 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Social works}
-\begin{tabular}{r|p{11cm}}
-	\textsc{Feb.2011-Jun.2011}
-	&\emph{Volunteer}\\
-	&\textsc{charity WIOSNA}\\
-	&\footnotesize{Responsibilities: helping kids to believe in themselves.}\\
-	\multicolumn{2}{c}{}\\
-
-	\textsc{2006-2008}
-		&\emph{Volunteer}\\
-		&\textsc{orphanage ''Zielony Las'' in Torun}\\
-		&\footnotesize{Responsibilities: doing homework with kids.}\\
-	\multicolumn{2}{c}{}\\
-\end{tabular}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %				 ADDITIONAL INFORMATION	     			 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Additional information}
+\section{\textcolor{Blue}{Additional information}}
 	My hobby is playing basketball, playing guitar, playing chess, reading scientific books and science in general, especially a
 	physics of elementary particles, the Standard Model and cosmology. In high school I was a member of basketball
 	team in The Province Olympics winning Bronze Medal. I used to represent a sport club SZTORM in running contests.
