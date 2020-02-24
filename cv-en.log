@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.10)  24 MAR 2019 21:52
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.10)  24 FEB 2020 23:08
 entering extended mode
 **./cv-en.tex
 (cv-en.tex
@@ -754,29 +754,29 @@ LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
 (Font)              using `TU/lmr/bx/n' instead on input line 97.
 
 
-Underfull \hbox (badness 2970) in paragraph at lines 127--133
+Underfull \hbox (badness 2970) in paragraph at lines 133--139
 \TU/lmr/m/n/10 Windows Server 2012R2/2016, MSSQL 2012/2014/2016, Visual Studio
  []
 
 
-Overfull \hbox (19.90508pt too wide) in paragraph at lines 114--157
+Overfull \hbox (19.90508pt too wide) in paragraph at lines 120--163
 [][] 
  []
 
 [1
 
 ]
-Overfull \hbox (24.98108pt too wide) in paragraph at lines 158--191
+Overfull \hbox (24.98108pt too wide) in paragraph at lines 164--197
 [][] 
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
  (cv-en.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 232.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 238.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
 Package rerunfilecheck Info: File `cv-en.out' has not changed.
 (rerunfilecheck)             Checksum: 54C18B6D646FFE50386690FC7D0ADED7.
 
@@ -787,7 +787,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  25791 strings out of 427748
  458359 string characters out of 3150980
- 568511 words of memory out of 3000000
+ 569511 words of memory out of 3000000
  29665 multiletter control sequences out of 15000+200000
  551595 words of font info for 50 fonts, out of 3000000 for 9000
  1329 hyphenation exceptions out of 8191
