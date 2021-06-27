@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.6) (preloaded format=xelatex 2021.6.14)  14 JUN 2021 21:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.6) (preloaded format=xelatex 2021.6.14)  24 JUN 2021 10:33
 entering extended mode
 **./cv-en.tex
 (cv-en.tex
@@ -609,7 +609,7 @@ LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
 ! Misplaced \omit.
 \multispan ->\omit 
                    \@multispan 
-l.113 ^^I\multicolumn{2}{c}{}
+l.115 ^^I\multicolumn{2}{c}{}
                              
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -617,14 +617,14 @@ an alignment. Proceed, and I'll ignore this case.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.113 ^^I\multicolumn{2}{c}{}
+l.115 ^^I\multicolumn{2}{c}{}
                              
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.134 ...cript 6, HTML 4.01, HTML5, Less, CSS3, C#
+l.136 ...cript 6, HTML 4.01, HTML5, Less, CSS3, C#
                                                    6, ASP.NET 4.7.1, Microso...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -632,24 +632,19 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (23.49307pt too wide) in paragraph at lines 117--141
+Overfull \hbox (23.49307pt too wide) in paragraph at lines 119--146
 [][] 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 2970) in paragraph at lines 156--162
-\TU/lmr/m/n/10 Windows Server 2012R2/2016, MSSQL 2012/2014/2016, Visual Studio
- []
-
-
-Overfull \hbox (19.90508pt too wide) in paragraph at lines 143--166
+Overfull \hbox (19.90508pt too wide) in paragraph at lines 148--172
 [][] 
  []
 
 [2]
-Overfull \vbox (20.07956pt too high) has occurred while \output is active []
+Overfull \vbox (44.07956pt too high) has occurred while \output is active []
 
 
 [3] [4] [5] (cv-en.aux)
@@ -662,7 +657,7 @@ Package rerunfilecheck Info: File `cv-en.out' has not changed.
 Here is how much of TeX's memory you used:
  16887 strings out of 411271
  286998 string characters out of 2833087
- 691129 words of memory out of 3000000
+ 694129 words of memory out of 3000000
  37143 multiletter control sequences out of 15000+600000
  422687 words of font info for 53 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
